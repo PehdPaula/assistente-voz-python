@@ -1,21 +1,55 @@
 # 🎙️ Assistente de Voz em Python
 
-Projeto desenvolvido em Python que utiliza reconhecimento de voz em português para executar comandos no sistema operacional Windows.
+Assistente de voz desenvolvido em Python capaz de reconhecer comandos por voz e executar ações no sistema, como abrir navegador, Excel, PowerPoint e Edge.
 
 ## 🚀 Funcionalidades
-- Reconhecimento de voz (pt-BR)
-- Abertura de aplicativos via comando de voz
-- Automação no Windows
+- Reconhecimento de voz em português (pt-BR)
+- Abertura de aplicativos por comando de voz
+- Encerramento do assistente por comando
 
 ## 🛠️ Tecnologias utilizadas
 - Python
 - SpeechRecognition
-- sounddevice
-- scipy
+- SoundDevice
+- PyAudio (alternativa)
+- Google Speech API
 
-## ▶️ Como executar o projeto
-
-### 1. Clonar o repositório
+## 📦 Instalação
 ```bash
 git clone https://github.com/PehdPaula/assistente-voz-python.git
+cd assistente-voz-python
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
 
+python assistente_voz.py
+
+🎤 Comandos de voz disponíveis
+
+"navegador"
+
+"Excel"
+
+"PowerPoint"
+
+"Edge"
+
+"Fechar"
+
+📌 Observações
+
+É necessário um microfone funcional
+
+O reconhecimento de voz utiliza conexão com a internet
+
+
+---
+
+# 🚀 AGORA O QUE FAZER
+
+1. Salve o `README.md`
+2. No terminal:
+```bash
+git add README.md
+git commit -m "Atualiza README com instruções e descrição do projeto"
+git push
