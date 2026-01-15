@@ -17,4 +17,5 @@ Projeto desenvolvido em Python que utiliza reconhecimento de voz em português p
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/assistente-voz-python.git
+git clone https://github.com/PehdPaula/assistente-voz-python.git
+
