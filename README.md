@@ -44,12 +44,3 @@ O reconhecimento de voz utiliza conexão com a internet
 
 
 ---
-
-# 🚀 AGORA O QUE FAZER
-
-1. Salve o `README.md`
-2. No terminal:
-```bash
-git add README.md
-git commit -m "Atualiza README com instruções e descrição do projeto"
-git push
